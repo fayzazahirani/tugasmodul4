@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            header {
+                background-color: #666;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+
+            nav {
+                float: left;
+                width: 30%;
+                height: 300px;
+                background: #ccc;
+                padding: 20px;
+            }
+
+            nav ul {
+                list-style-type: none;
+                padding: 0;
+            }
+
+            article {
+                float: left;
+                padding: 20px;
+                width: 70%;
+                background-color: #f1f1f1;
+                height: 300px;
+            }
+
+            section::after {
+                content: "";
+                display: table;
+                clear: ;
+            }
+
+            footer {
+                background-color: #777;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+
+            @media (max-width: 600px) {
+                nav, article {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        </style>
+    </head>
+
+
+    <body>
+
+        <header>
+            <h2>NCT</h2>
+        </header>
+
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">NCT 127</a></li>
+                    <li><a href="#">NCT DREAM</a></li>
+                    <li><a href="#">WAYV</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h1>NCT DREAM</h1>
+                <p><b>NCT Dream</b> adalah sub-unit ketiga dari <i>boyband</i> asal Korea Selatan, NCT.
+                    Yang khusus beranggotakan remaja dengan usia belasan tahun. Pada awalnya, 
+                    sub-unit ini memiliki sistem kelulusan di mana anggota yang melampaui usia 20 akan keluar, 
+                    tapi pada 2020, sistem ini diganti dan menjadikan NCT Dream sebagai unit tetap NCT.
+                    Unit ini melakukan debutnya pada 25 Agustus 2016 dengan lagu "Chewing Gum".<br>
+                    <p>Lima dari tujuh anggota grup ini dulunya merupakan bagian dari SM Rookies; 
+                    Mark, Jeno dan Jisung diperkenalkan pada tahun 2013, Haechan pada tahun 2014 dan Jaemin pada tahun 2015. 
+                    Mark sebelumnya telah melakukan debut dengan NCT U yang merupakan unit pertama NCT, dan bersama Haechan juga 
+                    merupakan anggota dari NCT 127, unit kedua yang berbasis di Seoul.
+            </article>
+        </section>
+
+        <footer>
+            <p>Fayza Zahirani Hamim-21104410054</p>
+        </footer>
+    </body>
+</html>
